@@ -37,7 +37,7 @@ header {
 
     .nav-links li {
         position: relative;
-        margin: 0 15px;
+        margin: 0 5px;
     }
 
         .nav-links li a {
@@ -46,6 +46,10 @@ header {
             padding: 10px 15px;
             display: block;
         }
+
+            .nav-links li a i {
+                margin-right: 12px;
+            }
 
         .nav-links li:hover > a {
             background-color: #555;

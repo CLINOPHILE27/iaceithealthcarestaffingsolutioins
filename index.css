@@ -48,7 +48,7 @@ header {
             display: block;
         }
         .nav-links li a i{
-            margin-right:8px;
+            margin-right:12px;
         }
 
         .nav-links li:hover > a {
