@@ -155,9 +155,9 @@ main {
     align-items: center;
     color: #fff;
     height: 80vh;
-    max-width:800px;
 }
 
 .form iframe {
     position: absolute;
+    max-width:800px;
 }
