@@ -1,0 +1,139 @@
+﻿/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+    .nav-links li {
+        position: relative;
+        margin: 0 15px;
+    }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .nav-links li:hover > a {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    min-width: 150px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+    .dropdown-menu li a {
+        color: white;
+        padding: 10px;
+        display: block;
+        border-bottom: 1px solid #555;
+    }
+
+        .dropdown-menu li a:hover {
+            background-color: #666;
+        }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+    .hamburger span {
+        background: white;
+        height: 3px;
+        width: 25px;
+        margin: 4px 0;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        display: none;
+    }
+
+        .nav-links.active {
+            display: flex;
+        }
+
+        .nav-links li {
+            text-align: center;
+            margin: 0;
+        }
+
+    .dropdown-menu {
+        position: static;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+    main section {
+        margin: 50px 0;
+    }
+
+    main h1, main h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    main p {
+        font-size: 1rem;
+        color: #555;
+    }
