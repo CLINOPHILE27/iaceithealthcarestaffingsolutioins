@@ -140,7 +140,7 @@ main {
     }
 
     main h1, main h2 {
-        margin-bottom: 20;
+        margin-bottom: 20px;
         color: white;
         font-size:2.5rem;
    
@@ -152,7 +152,7 @@ main {
     }
 .form {
     position: relative;
-    width: 100%; /* Makes the container scale with the parent */
+    width: auto%; /* Makes the container scale with the parent */
     padding-top: 56.25%; /* Aspect ratio: 16:9 (Height divided by width times 100) */
 }
 
@@ -161,6 +161,6 @@ main {
         top: 0;
         left:0;
         width: 100%; /* Full width */
-        height: 100%; /* Full height */
+        height: 250%; /* Full height */
         border: 0; /* Optional: Removes the border */
     }
