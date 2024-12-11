@@ -35,10 +35,9 @@ header {
     list-style: none;
 }
 
-
     .nav-links li {
         position: relative;
-        margin: 0 5px;
+        margin: 0 15px;
     }
 
         .nav-links li a {
@@ -46,9 +45,6 @@ header {
             text-decoration: none;
             padding: 10px 15px;
             display: block;
-        }
-        .nav-links li a i{
-            margin-right:8px;
         }
 
         .nav-links li:hover > a {
