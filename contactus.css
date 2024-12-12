@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-blend-mode:darken;
 
+
 }
 
 /* Header Styling */
@@ -153,4 +154,15 @@ main {
         font-size: 1.5rem;
         color: white;
     }
+
+iframe {
+    width:650px;
+    height:500px;
+    display:block;
+    margin:0 auto;
+    align-content:center;
+    padding:4px;
+
+}
+    
 
