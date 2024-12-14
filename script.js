@@ -22,3 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+function redirectToApplyPage(page) {
+    window.location.href = page;
+}
