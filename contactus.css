@@ -155,15 +155,19 @@ main {
         color: white;
     }
 
-iframe {
-    width:450px;
-    height:400px;
-    display:flex;
-    flex-direction:column;
-    margin:0 auto;
-    align-content:center;
-    padding:4px;
-
-}
+    .maps{
+        position:relative;
+        overflow:hidden;
+        padding:56.26%;
+    }
+        .maps iframe {
+            position: absolute;
+            top: 0;
+            left: 25%;
+            width: 40%;
+            height: 30%;
+            align-items: center;
+            align-content: center;
+        }
     
 
