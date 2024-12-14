@@ -163,11 +163,12 @@ main {
         .maps iframe {
             position: absolute;
             top: 0;
-            left: 25%;
-            width: 40%;
-            height: 30%;
-            align-items: center;
-            align-content: center;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-left:10%;
+            padding-right:20%;
+            padding-bottom:40%;
         }
     
 
