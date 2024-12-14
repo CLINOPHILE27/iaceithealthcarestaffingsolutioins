@@ -161,7 +161,7 @@ main {
         padding:56.26%;
     }
         .maps iframe {
-            
+            display:block;
             position: absolute;
             top: 0;
             left: 0;
@@ -169,5 +169,11 @@ main {
             height: 70%;
             aspect-ratio: 16 / 9;
         }
-    
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    margin-top: 15rem;
+}  
 

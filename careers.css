@@ -8,7 +8,9 @@ body {
     background: rgba(0, 0, 0, 0.7) url('bg2.jpg') center center fixed;
     background-size: cover;
     background-blend-mode:darken;
-
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 /* Header Styling */
@@ -129,29 +131,28 @@ header {
 }
 
 /* Main Content */
-main {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    margin-top:20px;
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.container h2{
+    color:white;
+}
+.job {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-    main section {
-        
-        text-align: center;
-        padding: 20px 
-        
+    .job h3 {
+        margin: 0 0 0.5rem;
     }
 
-    main h1, main h2 {
-        margin-bottom: 20px;
-        color: white;
-        font-size:2.5rem;
-   
-    }
-
-    main p {
-        font-size: 1.5rem;
-        color: white;
+    .job p {
+        margin: 0.5rem 0;
     }
 
 footer {
@@ -159,5 +160,19 @@ footer {
     padding: 1rem 0;
     background: #333;
     color: white;
-    margin-top: 15rem;
+    margin-top: 6rem;
 }
+
+.apply-btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .apply-btn:hover {
+        background: #0056b3;
+    }
+
